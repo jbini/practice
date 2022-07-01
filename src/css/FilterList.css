@@ -1,0 +1,275 @@
+.filterlist-container {
+    width: 100%;
+    height: 1000px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.filterlist-sec {
+    background-color: #ececec;
+    width: 1450px;
+    height: 1000px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.filterlist-filter-div {
+    background-color: #ececec;
+    width: 1350px;
+    height: 40px;
+    position: relative;
+    text-align: left;
+    display: inline-block;
+}
+.filterlist-filter {
+    background-color: #ececec;
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    margin-left: 15px;
+    border-radius: 7px;
+    border: #b4b4b4 solid 2px;
+    text-align: center;
+    display: inline-block;
+}
+.filterlist-filter:hover {
+    background-color: #b4b4b4;
+}
+.filterlist-filter a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #585858;
+    display: block;
+    width: 70px;
+    height: 30px;
+}
+.filterlist-filter:hover a{
+    color: #ececec;
+}
+.filterlist-filter-check {
+    background-color: #b4b4b4;
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    margin-left: 15px;
+    border-radius: 7px;
+    border: #b4b4b4 solid 2px;
+    text-align: center;
+    display: inline-block;
+}
+.filterlist-filter-check a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #ececec;
+    display: block;
+    width: 70px;
+    height: 30px;
+}
+
+.filterlist-div {
+    background-color: #ececec;
+    width: 1350px;
+    height: 910px;
+    border: #ececec solid 50px;
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+}
+.filterlist-list-div {
+    display: inline-block;
+}
+.filterlist-list1 {
+    background-color: #ececec;
+    width: 327px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 3px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+}
+.filterlist-list1:hover {background-color: #e4e4e4;}
+.filterlist-list {
+    background-color: #ececec;
+    width: 327px;
+    height: 450px;
+    border-radius: 15px;
+    margin-left: 14px;
+    margin-top: 3px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+}
+.filterlist-list:hover {background-color: #e4e4e4;}
+.filterlist-list-img-div-gray {
+    /* background-image: url(/public/img/slide.jpg);
+    background-size: cover; */
+    background-color: #cfcfcf;
+    width: 323px;
+    height: 250px;
+    margin-top: 2px;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.filterlist-list-img-div-gray img {
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.filterlist-list-img-div-blue {
+    /* background-image: url(/public/img/slide.jpg);
+    background-size: cover; */
+    background-color: #abdef5;
+    width: 323px;
+    height: 250px;
+    margin-top: 2px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.filterlist-list-img-div-red {
+    /* background-image: url(/public/img/slide.jpg);
+    background-size: cover; */
+    background-color: #f5abab;
+    width: 323px;
+    height: 250px;
+    margin-top: 2px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.filterlist-list-img-div-yellow {
+    /* background-image: url(/public/img/slide.jpg);
+    background-size: cover; */
+    background-color: #f5eaab;
+    width: 323px;
+    height: 250px;
+    margin-top: 2px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.filterlist-list-img-div-green {
+    /* background-image: url(/public/img/slide.jpg);
+    background-size: cover; */
+    background-color: #abf5c1;
+    width: 323px;
+    height: 250px;
+    margin-top: 2px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.filterlist-list-sub-div {
+    width: 307px;
+    height: 170px;
+    margin: 10px;
+    text-align: left;
+    white-space: pre-line;
+    display: inline-block;
+    
+}
+.filterlist-list-sub-div h2 {
+    margin-top: 1px;
+}
+
+
+.filterlist-div input {
+    display: none;
+}
+
+#graylist1:checked ~ .dark-bg {display: block;}
+#graylist1:checked ~ .filterlist-large-div {display: block;}
+#graylist2:checked ~ .dark-bg {display: block;}
+#graylist2:checked ~ .filterlist-large-div {display: block;}
+#graylist3:checked ~ .dark-bg {display: block;}
+#graylist3:checked ~ .filterlist-large-div {display: block;}
+#graylist4:checked ~ .dark-bg {display: block;}
+#graylist4:checked ~ .filterlist-large-div {display: block;}
+#graylist5:checked ~ .dark-bg {display: block;}
+#graylist5:checked ~ .filterlist-large-div {display: block;}
+#graylist6:checked ~ .dark-bg {display: block;}
+#graylist6:checked ~ .filterlist-large-div {display: block;}
+#graylist7:checked ~ .dark-bg {display: block;}
+#graylist7:checked ~ .filterlist-large-div {display: block;}
+#graylist8:checked ~ .dark-bg {display: block;}
+#graylist8:checked ~ .filterlist-large-div {display: block;}
+
+.dark-bg {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 9999px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 99;
+}
+.filterlist-large-div {
+    background-color: #ececec;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 600px;
+    height: 800px;
+    border-radius: 15px;
+    z-index: 100;
+    text-align: center;
+}
+.filterlist-large-top {
+    display: inline-block;
+    width: 580px;
+    height: 40px;
+    border-bottom: #b4b4b4 solid 1px ;
+    text-align: right;
+}
+.filterlist-large-top label {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.filterlist-large-top label h2 {
+    margin: 0;
+    font-weight: 900;
+    transform:translate(3px, 5px);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filterlist-large-img {
+    display: inline-block;
+    background-color: #cfcfcf;
+    border-top: #ececec solid 40px;
+    width: 520px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+.filterlist-large-img img {
+    height: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.filterlist-large-sub {
+    width: 520px;
+    height: 309px;
+    margin: 10px;
+    text-align: left;
+    white-space: pre-line;
+    display: inline-block;
+    
+}
+.filterlist-large-sub h2 {
+    margin-top: 5px;
+    font-size: 35px;
+}
