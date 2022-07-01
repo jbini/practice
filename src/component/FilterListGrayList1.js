@@ -1,4 +1,5 @@
 import '../css/FilterList.css';
+import '../img/car1.jpg';
 
 export default function FilterListGrayList1(props) {
     
@@ -17,7 +18,7 @@ export default function FilterListGrayList1(props) {
                     <label for={'graylist'+setNumber}><h2>X</h2></label>
                 </div>
                 <div className='filterlist-large-img'>
-                    <img src={'./img/'+setImgName+'.jpg'} alt={setImgName} />
+                    <img src={'../img/'+setImgName+'.jpg'} alt={setImgName} />
                 </div>
                 <div className='filterlist-large-sub'>
                     <h2>{props.listNumber}. {props.listTitle}</h2>
@@ -27,7 +28,7 @@ export default function FilterListGrayList1(props) {
 
             <label className='filterlist-list1' for={'graylist'+setNumber}>
                 <div className='filterlist-list-img-div-gray'>
-                    <img src={'./img/'+setImgName+'.jpg'} alt={setImgName} />
+                    <img src={'../img/'+setImgName+'.jpg'} alt={setImgName} />
                 </div>
                 <div className='filterlist-list-sub-div'>
                     <h2>{props.listNumber}. {props.listTitle}</h2>
