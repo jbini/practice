@@ -1,5 +1,6 @@
 
 import '../css/Manuscript.css';
+import waves2 from '../img/waves2.mp4'
 
 
 export default function Manuscript() {
@@ -9,7 +10,7 @@ export default function Manuscript() {
         <div className='manuscript-container'>
           <div className='manuscript-div'>
             {/* <img src='./img/waves01.gif' alt='waves1' /> */}
-            <video src='./img/waves2.mp4' autoPlay muted loop/>
+            <video src={waves2} autoPlay muted loop/>
             <div className='manuscript-box'>
               <div className='manuscript-sub-box'>
                 <div className='manuscript-sub1'></div>

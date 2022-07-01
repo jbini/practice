@@ -6,7 +6,7 @@
   }
   
   .manuscript-div {
-    background-color: #ececec;
+    background-color: #7e7e7e;
     width: 1350px;
     height: 770px;
     margin-top: 80px;
@@ -23,12 +23,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    filter: opacity(50%);
   }
   /* height 384 */
   .manuscript-box {
     width: 1350px;
-    height: 376px;
-    margin-top: 185px;
+    height: 354px;
+    margin-top: 175px;
     border-top: #ffffff solid 4px;
     border-bottom: #ffffff solid 4px;
     position: relative;
@@ -38,7 +39,7 @@
   .manuscript-sub-box {
     width: 1350px;
     height: 150px;
-    margin-top: 20px;
+    margin-top: 12px;
     border-top: #ffffff solid 4px;
     border-bottom: #ffffff solid 4px;
     text-align: center;
@@ -202,7 +203,7 @@
     left: 50%;
     transform: translate(-50%, -55%);
     font-size: 130px;
-    color: #646464;
+    color: #4b4b4b;
     z-index: 3;
   }
   @keyframes sub-jump {

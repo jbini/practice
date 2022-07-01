@@ -2,6 +2,14 @@ import '../css/FilterList.css';
 import { Link } from 'react-router-dom';
 import FilterListGrayList1 from './FilterListGrayList1';
 import FilterListGrayList from './FilterListGrayList';
+import car1 from '../img/car1.jpg';
+import car2 from '../img/car2.jpg';
+import car3 from '../img/car3.jpg';
+import car4 from '../img/car4.jpg';
+import car5 from '../img/car5.jpg';
+import car6 from '../img/car6.jpg';
+import car7 from '../img/car7.jpg';
+import car8 from '../img/car8.jpg';
 
 export default function FilterList() {
 
@@ -32,14 +40,14 @@ export default function FilterList() {
 
                 <div className='filterlist-div'>
 
-                    <FilterListGrayList1 listNumber={1} imgName={'car1'} listTitle={'Old car'} subContents={'test message1 test message1 test message1 test message1'} />
-                    <FilterListGrayList listNumber={2} imgName={'car2'} listTitle={'Car side'} subContents={'test message2 test message2 test message2 test message2'} />
-                    <FilterListGrayList listNumber={3} imgName={'car3'} listTitle={'Car back'} subContents={'test message3 test message3 test message3 test message3'} />
-                    <FilterListGrayList listNumber={4} imgName={'car4'} listTitle={'Car front'} subContents={'test message4 test message4 test message4 test message4'} />
-                    <FilterListGrayList1 listNumber={5} imgName={'car5'} listTitle={'Black car'} subContents={'test message5 test message5 test message5 test message5'} />
-                    <FilterListGrayList listNumber={6} imgName={'car6'} listTitle={'Red car'} subContents={'test message6 test message6 test message6 test message6'} />
-                    <FilterListGrayList listNumber={7} imgName={'car7'} listTitle={'Car inside right'} subContents={'test message7 test message7 test message7 test message7'} />
-                    <FilterListGrayList listNumber={8} imgName={'car8'} listTitle={'Car inside left'} subContents={'test message8 test message8 test message8 test message8'} />
+                    <FilterListGrayList1 listNumber={1} imgName={car1} listTitle={'Old car'} subContents={'test message1 test message1 test message1 test message1'} />
+                    <FilterListGrayList listNumber={2} imgName={car2} listTitle={'Car side'} subContents={'test message2 test message2 test message2 test message2'} />
+                    <FilterListGrayList listNumber={3} imgName={car3} listTitle={'Car back'} subContents={'test message3 test message3 test message3 test message3'} />
+                    <FilterListGrayList listNumber={4} imgName={car4} listTitle={'Car front'} subContents={'test message4 test message4 test message4 test message4'} />
+                    <FilterListGrayList1 listNumber={5} imgName={car5} listTitle={'Black car'} subContents={'test message5 test message5 test message5 test message5'} />
+                    <FilterListGrayList listNumber={6} imgName={car6} listTitle={'Red car'} subContents={'test message6 test message6 test message6 test message6'} />
+                    <FilterListGrayList listNumber={7} imgName={car7} listTitle={'Car inside right'} subContents={'test message7 test message7 test message7 test message7'} />
+                    <FilterListGrayList listNumber={8} imgName={car8} listTitle={'Car inside left'} subContents={'test message8 test message8 test message8 test message8'} />
                     
                 </div>
 

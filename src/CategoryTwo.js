@@ -1,6 +1,5 @@
 import './App.css';
 import GrayLine from './component/GrayLine';
-import SecondContainer from './component/SecondContainer';
 import { useEffect } from "react";
 import DownList from './component/DownList';
 import Manuscript from './component/Manuscript';

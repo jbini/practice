@@ -1,4 +1,7 @@
 import '../css/Footer.css';
+import facebook2 from '../img/facebook2.png'
+import twitter2 from '../img/twitter2.png'
+import insta2 from '../img/insta2.png'
 
 export default function Footer() {
     return (
@@ -27,13 +30,13 @@ export default function Footer() {
         </div>
         <div className='footer-div-icon'>
           <a href='https://www.facebook.com' target='_blank' rel="noreferrer">
-            <input type='image' src='./img/facebook2.png' alt='facebook' width={50}></input>
+            <input type='image' src={facebook2} alt='facebook' width={50}></input>
           </a>
           <a href='https://twitter.com' target='_blank' rel="noreferrer">
-            <input type='image' src='./img/twitter2.png' alt='twitter' width={50}></input>
+            <input type='image' src={twitter2} alt='twitter' width={50}></input>
           </a>
           <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
-            <input type='image' src='./img/insta2.png' alt='insta' width={50}></input>
+            <input type='image' src={insta2} alt='insta' width={50}></input>
           </a>
         </div>
       </div>

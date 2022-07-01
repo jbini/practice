@@ -1,5 +1,9 @@
 // import { useState } from 'react';
 import '../css/FirstContainer.css';
+import slide01 from '../img/slide01.jpg';
+import slide02 from '../img/slide02.jpg';
+import slide03 from '../img/slide03.jpg';
+import slide from '../img/slide.jpg';
 
 
 export default function FirstContainer() {
@@ -38,17 +42,17 @@ export default function FirstContainer() {
             <div className='first-slide'>
               <div className='first-slide-div'>
                 <label for='first-slide-btn3' className='left'></label>
-                <img src='./img/slide01.jpg' alt='slide01'></img>
+                <img src={slide01} alt='slide01'></img>
                 <label for='first-slide-btn2' className='right'></label>
               </div>
               <div className='first-slide-div'>
                 <label for='first-slide-btn1' className='left'></label>
-                <img src='./img/slide02.jpg' alt='slide01'></img>
+                <img src={slide02} alt='slide01'></img>
                 <label for='first-slide-btn3' className='right'></label>
               </div>
               <div className='first-slide-div'>
                 <label for='first-slide-btn2' className='left'></label>
-                <img src='./img/slide03.jpg' alt='slide01'></img>
+                <img src={slide03} alt='slide01'></img>
                 <label for='first-slide-btn1' className='right'></label>
               </div>
             </div>
@@ -66,7 +70,7 @@ export default function FirstContainer() {
           <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
             <div className='first-link-div1'>
               <div className='first-link-div-img'>
-                <img src='./img/slide.jpg' alt='link-1'></img>
+                <img src={slide} alt='link-1'></img>
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-1</p>
@@ -77,7 +81,7 @@ export default function FirstContainer() {
           <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
             <div className='first-link-div'>
               <div className='first-link-div-img'>
-                <img src='./img/slide.jpg' alt='link-2'></img>
+                <img src={slide} alt='link-2'></img>
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-2</p>
@@ -88,7 +92,7 @@ export default function FirstContainer() {
           <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
             <div className='first-link-div'>
               <div className='first-link-div-img'>
-                <img src='./img/slide.jpg' alt='link-3'></img>
+                <img src={slide} alt='link-3'></img>
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-3</p>
@@ -99,7 +103,7 @@ export default function FirstContainer() {
           <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
             <div className='first-link-div'>
               <div className='first-link-div-img'>
-                <img src='./img/slide.jpg' alt='link-4'></img>
+                <img src={slide} alt='link-4'></img>
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-4</p>
@@ -110,7 +114,7 @@ export default function FirstContainer() {
           <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
             <div className='first-link-div'>
               <div className='first-link-div-img'>
-                <img src='./img/slide.jpg' alt='link-5'></img>
+                <img src={slide} alt='link-5'></img>
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-5</p>
@@ -121,7 +125,7 @@ export default function FirstContainer() {
           <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
             <div className='first-link-div'>
               <div className='first-link-div-img'>
-                <img src='./img/slide.jpg' alt='link-6'></img>
+                <img src={slide} alt='link-6'></img>
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-6</p>
