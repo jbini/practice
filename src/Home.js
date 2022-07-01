@@ -29,7 +29,7 @@ export default function Home() {
         <Banner />
         <GrayLine />
         <Routes>
-        <Route path='/' element={<FilterList />} />
+        <Route path='/*' element={<FilterList />} />
         <Route path='/blue' element={<FilterListBlue />} />
         <Route path='/red' element={<FilterListRed />} />
         <Route path='/yellow' element={<FilterListYellow />} />
