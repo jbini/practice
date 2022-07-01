@@ -32,8 +32,8 @@
   #banner-btn3:checked ~ .banner-slide {transform: translate(-2700px);}
   
   .banner-slide-div label {position: absolute; z-index:1;transform:translateY(320px);padding:50px;cursor: pointer; display: none;}
-  .left {left:-20px;background:url('/public/img/left.jpg') center center / 100% no-repeat;}
-  .right {right:-20px;background:url('/public/img/right.jpg') center center / 100% no-repeat;}
+  .left {left:-20px;background:url('../img/left.jpg') center center / 100% no-repeat;}
+  .right {right:-20px;background:url('../img/right.jpg') center center / 100% no-repeat;}
   
   .banner-slide:hover label {display: inline-block;}
   

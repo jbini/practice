@@ -105,7 +105,7 @@
     top: 10px;
     left: 30px;
     border-radius: 130px;
-    background-image: url(/public/img/snoopy2.png);
+    background-image: url(../img/snoopy2.png);
     background-size: 160px;
     background-position: center;
     background-repeat: no-repeat;
@@ -175,7 +175,7 @@
     top: 10px;
     left: 545px;
     border-radius: 130px;
-    background-image: url(/public/img/felix3.png);
+    background-image: url(../img/felix3.png);
     background-size: 160px;
     background-position: center;
     background-repeat: no-repeat;
@@ -278,7 +278,7 @@
     top: 10px;
     left: 1060px;
     border-radius: 130px;
-    background-image: url(/public/img/tom5.png);
+    background-image: url(../img/tom5.png);
     background-size: 190px;
     background-position: center;
     background-repeat: no-repeat;

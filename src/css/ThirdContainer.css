@@ -43,7 +43,7 @@
 }
 .gallery-div-arrow {
     background-color: #b1e2ee;
-    background-image: url(/public/img/right.jpg);
+    background-image: url(../img/right.jpg);
     background-size: 40px;
     background-position: center;
     background-position-y: 225px;
@@ -54,7 +54,7 @@
 }
 .gallery-div-pic-div {
     background-color: #b1e2ee;
-    background-image: url(/public/img/tom0.png);
+    background-image: url(../img/tom0.png);
     background-size: 400px;
     background-position-y: 200px;
     background-position-x: 175px;
@@ -70,7 +70,7 @@
 }
 .gallery-div-pic1 {
     background-color: #82d2e6;
-    background-image: url(/public/img/tom1.png);
+    background-image: url(../img/tom1.png);
     background-size: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@
 .gallery-div-pic1:hover {width: 710px;}
 .gallery-div-pic2 {
     background-color: #60c8e2;
-    background-image: url(/public/img/tom2.png);
+    background-image: url(../img/tom2.png);
     background-size: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@
 .gallery-div-pic2:hover {width: 710px;}
 .gallery-div-pic3 {
     background-color: #2eacc9;
-    background-image: url(/public/img/tom3.png);
+    background-image: url(../img/tom3.png);
     background-size: 150px;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@
 .gallery-div-pic3:hover {width: 710px;}
 .gallery-div-pic4 {
     background-color: #1596b3;
-    background-image: url(/public/img/tom5.png);
+    background-image: url(../img/tom5.png);
     background-size: 200px;
     background-position: center;
     background-repeat: no-repeat;

@@ -42,7 +42,7 @@
     height: 260px;
     display: inline-block;
     border-radius: 110px;
-    background-image: url(/public/img/felix.png);
+    background-image: url(../img/felix.png);
     background-size: 160px;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@
     height: 260px;
     display: inline-block;
     border-radius: 110px;
-    background-image: url(/public/img/mickey.png);
+    background-image: url(../img/mickey.png);
     background-size: 160px;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@
     height: 260px;
     display: inline-block;
     border-radius: 110px;
-    background-image: url(/public/img/snoopy.png);
+    background-image: url(../img/snoopy.png);
     background-size: 160px;
     background-position: center;
     background-repeat: no-repeat;
