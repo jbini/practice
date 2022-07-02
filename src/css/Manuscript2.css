@@ -29,7 +29,9 @@
   .manuscript-box {
     width: 1350px;
     height: 354px;
-    margin-top: 195px;
+    margin-top: 175px;
+    border-top: #ffffff solid 4px;
+    border-bottom: #ffffff solid 4px;
     position: relative;
     z-index: 2;
   }
@@ -38,12 +40,16 @@
     width: 1350px;
     height: 150px;
     margin-top: 12px;
+    border-top: #ffffff solid 4px;
+    border-bottom: #ffffff solid 4px;
     text-align: center;
     position: relative;
   }
   .manuscript-sub1 {
     width: 150px;
     height: 150px;
+    border-left: #ffffff solid 4px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -51,6 +57,8 @@
   .manuscript-sub9 {
     width: 150px;
     height: 150px;
+    border-left: #ffffff solid 4px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -58,6 +66,7 @@
   .manuscript-sub2 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -65,6 +74,7 @@
   .manuscript-sub3 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -72,6 +82,7 @@
   .manuscript-sub4 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -79,6 +90,7 @@
   .manuscript-sub5 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -86,6 +98,7 @@
   .manuscript-sub6 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -93,6 +106,7 @@
   .manuscript-sub7 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -100,6 +114,7 @@
   .manuscript-sub8 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -107,6 +122,7 @@
   .manuscript-sub10 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -114,6 +130,7 @@
   .manuscript-sub11 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -121,6 +138,7 @@
   .manuscript-sub12 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -128,6 +146,7 @@
   .manuscript-sub13 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -135,6 +154,7 @@
   .manuscript-sub14 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -142,6 +162,7 @@
   .manuscript-sub15 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -149,6 +170,7 @@
   .manuscript-sub16 {
     width: 150px;
     height: 150px;
+    border-right: #ffffff solid 4px;
     display: inline-block;
     vertical-align: top;
     position: relative;

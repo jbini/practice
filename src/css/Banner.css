@@ -57,6 +57,215 @@
     left: 50%;
     transform: translate(-50%,-50%);
   }
+
+
+  
+  .banner-script-div {
+    width: 100px;
+    height: 81px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    text-align: center;
+    overflow: hidden;
+  }
+  .banner-script-div h4 {
+    display: block;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  .banner-script-top-div {
+    width: 100px;
+    height: 40px;
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .banner-script-sub-box {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+  }
+  .banner-script-line-box {
+    width: 0px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+  .banner-script-top-line{
+    background-color: #ffffff;
+    width: 700px;
+    height: 3px;
+    position: absolute;
+    top: 22px;
+    left: -700px;
+  }
+  .banner-script-bot-line{
+    background-color: #ffffff;
+    width: 700px;
+    height: 3px;
+    position: absolute;
+    top: 15px;
+    right: -700px;
+  }
+  .banner-script-bot-div {
+    width: 100px;
+    height: 40px;
+    display: block;
+    float: right;
+    text-align: right;
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .banner-script-con-div {
+    width: 9000px;
+    height: 0px;
+    border-top: #ffffff solid 3px;
+    border-bottom: #ffffff solid 3px;
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 6200px;
+    transform: translate(0,-50%);
+    overflow: hidden;
+  }
+  .banner-script-content {
+    vertical-align: top;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    border-left: #ffffff solid 3px;
+  }
+
+  
+  .banner-slide-div:hover .banner-script-con-div {
+    height: 150px;
+    transform: translate(-13375px,-50%);
+    transition: 3s;
+  }
+  .banner-slide-div:hover .banner-script-div {
+    width: 800px;
+    height: 236px;
+    transition: 1s;
+  }
+  .banner-slide-div:hover .banner-script-top-div {
+    width: 800px;
+    transition: 1s;
+  }
+  .banner-slide-div:hover .banner-script-bot-div {
+    width: 800px;
+    transition: 1s;
+  }
+  .banner-slide-div:hover .banner-script-line-box {
+    width: 700px;
+    transition: 1s;
+  }
+  @keyframes scriptline1 {
+    0%{
+      transform: translateX(0px);
+    }
+    25%{
+      transform: translateX(0px);
+    }
+    68%{
+      transform: translateX(700px);
+    }
+    70%{
+      background: #ffffff;
+    }
+    71%{
+      background: none;
+    }
+    74%{
+      background: #ffffff;
+    }
+    75%{
+      background: none;
+    }
+    77%{
+      background: #ffffff;
+    }
+    78%{
+      background: none;
+    }
+    80%{
+      background: #ffffff;
+    }
+    100%{
+      transform: translateX(700px);
+      background: #ffffff;
+    }
+  }
+  @keyframes scriptline2 {
+    0%{
+      transform: translateX(0px);
+    }
+    25%{
+      transform: translateX(0px);
+    }
+    68%{
+      transform: translateX(-700px);
+    }
+    70%{
+      background: #ffffff;
+    }
+    71%{
+      background: none;
+    }
+    74%{
+      background: #ffffff;
+    }
+    75%{
+      background: none;
+    }
+    77%{
+      background: #ffffff;
+    }
+    78%{
+      background: none;
+    }
+    80%{
+      background: #ffffff;
+    }
+    100%{
+      transform: translateX(-700px);
+      background: #ffffff;
+    }
+  }
+  .banner-slide-div:hover .banner-script-top-line {
+    animation: scriptline1 2.7s ease;
+    transform: translateX(700px);
+    transition-delay: 5s;
+  }
+  .banner-slide-div:hover .banner-script-bot-line {
+    animation: scriptline2 2.7s ease;
+    transform: translateX(-700px);
+    transition-delay: 5s;
+  }
+  
+
+
+
+
+
+
   .banner-link-div {
     width: 650px;
     height: 40px;
@@ -66,7 +275,6 @@
     text-align: center;
     z-index: 10;
   }
-  
   .banner-link {
     width: 100px;
     height: 30px;

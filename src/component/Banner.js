@@ -1,5 +1,6 @@
 
 import '../css/Banner.css';
+import slide from '../img/slide.jpg';
 import slide01 from '../img/slide01.jpg';
 import slide02 from '../img/slide02.jpg';
 import slide03 from '../img/slide03.jpg';
@@ -16,9 +17,38 @@ export default function Banner() {
             <input type='radio' name='slide-radio' id='banner-btn3'></input>
             <div className='banner-slide'>
               <div className='banner-slide-div'>
+
                 <label for='banner-btn3' className='left'></label>
-                <img src={slide01} alt='slide01'></img>
+                <img src={slide} alt='slide01'></img>
                 <label for='banner-btn2' className='right'></label>
+
+                  <div className='banner-script-div'>
+                    <div className='banner-script-top-div'>
+                      <div className='banner-script-sub-box'><h4>Attain</h4></div>
+                      <div className='banner-script-line-box'>
+                        <div className='banner-script-top-line' />
+                      </div>
+                    </div>
+
+                    <div className='banner-script-con-div'>
+                      <div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' />
+                      
+                      <div className='banner-script-content'>a</div>
+                      <div className='banner-script-content'>b</div>
+                      <div className='banner-script-content'>c</div>
+                      <div className='banner-script-content'>d</div>
+                      <div className='banner-script-content'>e</div>          <div className='banner-script-content'>end</div>
+                      
+                    </div>
+
+                    <div className='banner-script-bot-div'>
+                      <div className='banner-script-line-box'>
+                        <div className='banner-script-bot-line' />
+                      </div>
+                      <div className='banner-script-sub-box'><h4>Dream</h4></div>
+                    </div>
+                  </div>
+
                 <div className='banner-link-div'>
                   <div className='banner-link'>
                     <a href='https://github.com/jbini' target='_blank' rel="noreferrer">link1</a>
