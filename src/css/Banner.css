@@ -4,7 +4,16 @@
     overflow: hidden;
     white-space: nowrap;
   }
-  /* 왼쪽 div */
+  @font-face {
+    font-family: "GmarketL";
+    src: url("/src/font/GmarketLight.ttf");
+  }
+  @font-face {
+    font-family: "GmarketM";
+    src: url("/src/font/GmarketMedium.ttf");
+  }
+
+
   .banner-div {
     background-color: #ececec;
     width: 1350px;
@@ -74,13 +83,16 @@
   .banner-script-div h4 {
     display: block;
     position: absolute;
-    top: 43%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     margin: 0;
+    font-family: "GmarketL";
     font-size: 22px;
+    font-weight: 100;
     color: #ffffff;
   }
+  
   .banner-script-top-div {
     width: 100px;
     height: 40px;
@@ -147,17 +159,30 @@
   }
   .banner-script-content {
     vertical-align: top;
+    position: relative;
     width: 150px;
     height: 150px;
     display: inline-block;
     text-align: center;
     border-left: #ffffff solid 3px;
   }
+  .banner-script-div h3 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    font-family: "GmarketM";
+    font-size: 90px;
+    font-weight: 900;
+    color: #ffffff;
+  }
 
   
   .banner-slide-div:hover .banner-script-con-div {
     height: 150px;
-    transform: translate(-13375px,-50%);
+    transform: translate(-13378px,-50%);
     transition: 3s;
   }
   .banner-slide-div:hover .banner-script-div {

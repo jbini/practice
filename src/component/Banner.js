@@ -33,11 +33,11 @@ export default function Banner() {
                     <div className='banner-script-con-div'>
                       <div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' /><div className='banner-script-content' />
                       
-                      <div className='banner-script-content'>a</div>
-                      <div className='banner-script-content'>b</div>
-                      <div className='banner-script-content'>c</div>
-                      <div className='banner-script-content'>d</div>
-                      <div className='banner-script-content'>e</div>          <div className='banner-script-content'>end</div>
+                      <div className='banner-script-content'><h3>j</h3></div>
+                      <div className='banner-script-content'><h3>b</h3></div>
+                      <div className='banner-script-content'><h3>i</h3></div>
+                      <div className='banner-script-content'><h3>n</h3></div>
+                      <div className='banner-script-content'><h3>i</h3></div>          <div className='banner-script-content'>end</div>
                       
                     </div>
 
