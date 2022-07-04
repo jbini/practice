@@ -4,6 +4,7 @@ import slide from '../img/slide.jpg';
 import slide01 from '../img/slide01.jpg';
 import slide02 from '../img/slide02.jpg';
 import slide03 from '../img/slide03.jpg';
+import mountains1 from '../img/mountains1.png';
 
 
 export default function Banner() {
@@ -19,7 +20,7 @@ export default function Banner() {
               <div className='banner-slide-div'>
 
                 <label for='banner-btn3' className='left'></label>
-                <img src={slide} alt='slide01'></img>
+                <img src={mountains1} alt='slide01'></img>
                 <label for='banner-btn2' className='right'></label>
 
                   <div className='banner-script-div'>

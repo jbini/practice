@@ -27,6 +27,7 @@
     text-align: left;
     transition: .5s;
     overflow: hidden;
+    cursor: pointer;
 }
 .downlist-sub {
     width: 1350px;
@@ -38,7 +39,6 @@
     font-size: 20px;
     color: #f1f1f1;
     font-family: Arial, Helvetica, sans-serif;
-    transition: .3s;
 }
 .downlist:hover {
     background-color: #dadada;
@@ -64,60 +64,60 @@
 
 
 #downlist1:checked ~ #downlist-list1 {
-    max-height: 900px;
+    max-height: 440px;
     background-color: #dadada;
+    cursor: default;
 }
 #downlist1:checked ~ #downlist-list1 .downlist-close {
     display: block;
-    transition: .3s;
 }
 #downlist1:checked ~ #downlist-list1 h3 {
     color: #3d3d3d;
 }
 
 #downlist2:checked ~ #downlist-list2 {
-    max-height: 900px;
+    max-height: 440px;
     background-color: #dadada;
+    cursor: default;
 }
 #downlist2:checked ~ #downlist-list2 .downlist-close {
     display: block;
-    transition: .3s;
 }
 #downlist2:checked ~ #downlist-list2 h3 {
     color: #3d3d3d;
 }
 
 #downlist3:checked ~ #downlist-list3 {
-    max-height: 900px;
+    max-height: 440px;
     background-color: #dadada;
+    cursor: default;
 }
 #downlist3:checked ~ #downlist-list3 .downlist-close {
     display: block;
-    transition: .3s;
 }
 #downlist3:checked ~ #downlist-list3h3 {
     color: #3d3d3d;
 }
 
 #downlist4:checked ~ #downlist-list4 {
-    max-height: 900px;
+    max-height: 440px;
     background-color: #dadada;
+    cursor: default;
 }
 #downlist4:checked ~ #downlist-list4 .downlist-close {
     display: block;
-    transition: .3s;
 }
 #downlist4:checked ~ #downlist-list4 h3 {
     color: #3d3d3d;
 }
 
 #downlist5:checked ~ #downlist-list5 {
-    max-height: 900px;
+    max-height: 440px;
     background-color: #dadada;
+    cursor: default;
 }
 #downlist5:checked ~ #downlist-list5 .downlist-close {
     display: block;
-    transition: .3s;
 }
 #downlist5:checked ~ #downlist-list5 h3 {
     color: #3d3d3d;
@@ -133,7 +133,6 @@
     right: 10px;
     width: 30px;
     height: 30px;
-    transition: .3s;
     cursor: pointer;
 }
 .downlist-close h2 {

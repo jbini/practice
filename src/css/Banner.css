@@ -52,6 +52,7 @@
     transition: all 0.5s;
   }
   .banner-slide-div {
+    background-color: #757575;
     width: 1350px;
     height: 758px;
     float: left;
@@ -60,11 +61,12 @@
     text-align: center;
   }
   .banner-slide-div img{
-    width: 1350px;
+    height: 758px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    filter: opacity(80%);
   }
 
 
