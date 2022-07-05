@@ -5,6 +5,7 @@ import slide01 from '../img/slide01.jpg';
 import slide02 from '../img/slide02.jpg';
 import slide03 from '../img/slide03.jpg';
 import mountains1 from '../img/mountains1.png';
+import star1 from '../img/star1.jpg';
 
 
 export default function Banner() {
@@ -75,8 +76,30 @@ export default function Banner() {
               </div>
               <div className='banner-slide-div'>
                 <label for='banner-btn1' className='left'></label>
-                <img src={slide02} alt='slide02'></img>
+                <img src={star1} alt='slide02' width={1350}></img>
                 <label for='banner-btn3' className='right'></label>
+
+                <div className='banner-star01' id='first-star'>j</div>
+                <div className='banner-star02' id='first-star'>b</div>
+                <div className='banner-star03' id='first-star'>i</div>
+                <div className='banner-star04' id='first-star'>n</div>
+                <div className='banner-star05' id='first-star'>i</div>
+
+                <div className='banner-star06' id='second-star'>R</div>
+                <div className='banner-star07' id='second-star'>e</div>
+                <div className='banner-star08' id='second-star'>a</div>
+                <div className='banner-star09' id='second-star'>c</div>
+                <div className='banner-star10' id='second-star'>t</div>
+
+                <div className='banner-star11' id='third-star'>P</div>
+                <div className='banner-star12' id='third-star'>r</div>
+                <div className='banner-star13' id='third-star'>a</div>
+                <div className='banner-star14' id='third-star'>c</div>
+                <div className='banner-star15' id='third-star'>t</div>
+                <div className='banner-star16' id='third-star'>i</div>
+                <div className='banner-star17' id='third-star'>c</div>
+                <div className='banner-star18' id='third-star'>e</div>
+
                 <div className='banner-link-div'>
                 <div className='banner-link'>
                     <a href='https://github.com/jbini' target='_blank' rel="noreferrer">Google</a>

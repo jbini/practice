@@ -52,7 +52,7 @@
     transition: all 0.5s;
   }
   .banner-slide-div {
-    background-color: #757575;
+    background-color: #383838;
     width: 1350px;
     height: 758px;
     float: left;
@@ -66,7 +66,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    filter: opacity(80%);
+    filter: opacity(70%);
   }
 
 
@@ -287,7 +287,165 @@
     transition-delay: 5s;
   }
   
+  #first-star {
+    color: #383838;
+    font-family: "GmarketL";
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+  @keyframes firststar {
+    0% {
+      color: #383838;
+    }
+    2% {
+      color: #ffffff;
+    }
+    19% {
+      color: #ffffff;
+    }
+    34% {
+      color: #383838;
+    }
+  }
+  .banner-slide-div:hover #first-star {
+    animation: firststar 10s infinite ease;
+  }
 
+  .banner-star01 {
+    top: 120px;
+    left: 210px;
+  }
+  .banner-star02 {
+    top: 350px;
+    left: 330px;
+  }
+  .banner-star03 {
+    top: 390px;
+    left: 440px;
+  }
+  .banner-star04 {
+    top: 200px;
+    left: 620px;
+  }
+  .banner-star05 {
+    top: 270px;
+    left: 810px;
+  }
+
+  #second-star {
+    color: #383838;
+    font-family: "GmarketL";
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+  @keyframes secondstar {
+    33% {
+      color: #383838;
+    }
+    35% {
+      color: #ffffff;
+    }
+    52% {
+      color: #ffffff;
+    }
+    67% {
+      color: #383838;
+    }
+  }
+  .banner-slide-div:hover #second-star {
+    animation: secondstar 10s infinite ease;
+  }
+
+  .banner-star06 {
+    top: 410px;
+    left: 220px;
+  }
+  .banner-star07 {
+    top: 210px;
+    left: 390px;
+  }
+  .banner-star08 {
+    top: 330px;
+    left: 490px;
+  }
+  .banner-star09 {
+    top: 400px;
+    left: 720px;
+  }
+  .banner-star10 {
+    top: 370px;
+    left: 1010px;
+  }
+
+
+  #third-star {
+    color: #383838;
+    font-family: "GmarketL";
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+  @keyframes thirdstar {
+    66% {
+      color: #383838;
+    }
+    68% {
+      color: #ffffff;
+    }
+    85% {
+      color: #ffffff;
+    }
+    100% {
+      color: #383838;
+    }
+  }
+  .banner-slide-div:hover #third-star {
+    animation: thirdstar 10s infinite ease;
+  }
+
+  .banner-star11 {
+    top: 210px;
+    left: 130px;
+  }
+  .banner-star12 {
+    top: 90px;
+    left: 280px;
+  }
+  .banner-star13 {
+    top: 330px;
+    left: 410px;
+  }
+  .banner-star14 {
+    top: 400px;
+    left: 540px;
+  }
+  .banner-star15 {
+    top: 210px;
+    left: 770px;
+  }
+  .banner-star16 {
+    top: 250px;
+    left: 830px;
+  }
+  .banner-star17 {
+    top: 310px;
+    left: 1000px;
+  }
+  .banner-star18 {
+    top: 200px;
+    left: 1090px;
+  }
 
 
 
