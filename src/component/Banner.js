@@ -6,6 +6,7 @@ import slide02 from '../img/slide02.jpg';
 import slide03 from '../img/slide03.jpg';
 import mountains1 from '../img/mountains1.png';
 import star1 from '../img/star1.jpg';
+import starlight1 from '../img/starlight1.png';
 
 
 export default function Banner() {

@@ -288,7 +288,7 @@
   }
   
   #first-star {
-    color: #383838;
+    color: #111d33;
     font-family: "GmarketL";
     font-size: 30px;
     font-weight: 100;
@@ -299,7 +299,7 @@
   }
   @keyframes firststar {
     0% {
-      color: #383838;
+      color: #111d33;
     }
     2% {
       color: #ffffff;
@@ -308,7 +308,7 @@
       color: #ffffff;
     }
     34% {
-      color: #383838;
+      color: #111d33;
     }
   }
   .banner-slide-div:hover #first-star {
@@ -316,28 +316,28 @@
   }
 
   .banner-star01 {
-    top: 120px;
-    left: 210px;
+    top: 220px;
+    left: 310px;
   }
   .banner-star02 {
-    top: 350px;
-    left: 330px;
+    top: 330px;
+    left: 460px;
   }
   .banner-star03 {
     top: 390px;
-    left: 440px;
+    left: 590px;
   }
   .banner-star04 {
-    top: 200px;
-    left: 620px;
+    top: 150px;
+    left: 720px;
   }
   .banner-star05 {
     top: 270px;
-    left: 810px;
+    left: 910px;
   }
 
   #second-star {
-    color: #383838;
+    color: #111d33;
     font-family: "GmarketL";
     font-size: 30px;
     font-weight: 100;
@@ -348,7 +348,7 @@
   }
   @keyframes secondstar {
     33% {
-      color: #383838;
+      color: #111d33;
     }
     35% {
       color: #ffffff;
@@ -357,7 +357,7 @@
       color: #ffffff;
     }
     67% {
-      color: #383838;
+      color: #111d33;
     }
   }
   .banner-slide-div:hover #second-star {
@@ -374,20 +374,20 @@
   }
   .banner-star08 {
     top: 330px;
-    left: 490px;
+    left: 590px;
   }
   .banner-star09 {
     top: 400px;
     left: 720px;
   }
   .banner-star10 {
-    top: 370px;
+    top: 310px;
     left: 1010px;
   }
 
 
   #third-star {
-    color: #383838;
+    color: #111d33;
     font-family: "GmarketL";
     font-size: 30px;
     font-weight: 100;
@@ -398,7 +398,7 @@
   }
   @keyframes thirdstar {
     66% {
-      color: #383838;
+      color: #111d33;
     }
     68% {
       color: #ffffff;
@@ -407,7 +407,7 @@
       color: #ffffff;
     }
     100% {
-      color: #383838;
+      color: #111d33;
     }
   }
   .banner-slide-div:hover #third-star {
@@ -416,23 +416,23 @@
 
   .banner-star11 {
     top: 210px;
-    left: 130px;
+    left: 230px;
   }
   .banner-star12 {
-    top: 90px;
-    left: 280px;
+    top: 190px;
+    left: 350px;
   }
   .banner-star13 {
-    top: 330px;
-    left: 410px;
+    top: 260px;
+    left: 450px;
   }
   .banner-star14 {
-    top: 400px;
-    left: 540px;
+    top: 330px;
+    left: 640px;
   }
   .banner-star15 {
-    top: 210px;
-    left: 770px;
+    top: 310px;
+    left: 740px;
   }
   .banner-star16 {
     top: 250px;
@@ -447,7 +447,20 @@
     left: 1090px;
   }
 
-
+  /* .banner-star-blink {
+    filter: opacity(50%);
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 55%;
+    left: 38%;
+    transform: translate(-50%,-50%);
+  }
+  .banner-star-blink img {
+    width: 100px;
+    height: 100px;
+  } */
 
 
 
