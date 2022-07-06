@@ -287,6 +287,10 @@
     transition-delay: 5s;
   }
   
+
+
+
+
   #first-star {
     color: #111d33;
     font-family: "GmarketL";
@@ -311,8 +315,9 @@
       color: #111d33;
     }
   }
+
   .banner-slide-div:hover #first-star {
-    animation: firststar 10s infinite ease;
+    animation: firststar 15s infinite ease;
   }
 
   .banner-star01 {
@@ -335,6 +340,60 @@
     top: 270px;
     left: 910px;
   }
+  
+
+  @keyframes firstline {
+    1% {
+      background-color: #111d33;
+    }
+    10% {
+      background-color: #ffffff;
+    }
+    19% {
+      background-color: #ffffff;
+    }
+    34% {
+      background-color: #111d33;
+    }
+  }
+  #first-line {
+    background-color: #111d33;
+    display: block;
+    position: absolute;
+  }
+  .banner-line01 {
+    width: 130px;
+    height: 1px;
+    top: 290px;
+    left: 330px;
+    transform: rotate(35deg);
+  }
+  .banner-line02 {
+    width: 100px;
+    height: 1px;
+    top: 380px;
+    left: 490px;
+    transform: rotate(27deg);
+  }
+  .banner-line03 {
+    width: 220px;
+    height: 1px;
+    top: 290px;
+    left: 560px;
+    transform: rotate(-62deg);
+  }
+  .banner-line04 {
+    width: 180px;
+    height: 1px;
+    top: 225px;
+    left: 740px;
+    transform: rotate(32deg);
+  }
+  .banner-slide-div:hover #first-line {
+    animation: firstline 15s infinite ease;
+  }
+
+
 
   #second-star {
     color: #111d33;
@@ -361,7 +420,7 @@
     }
   }
   .banner-slide-div:hover #second-star {
-    animation: secondstar 10s infinite ease;
+    animation: secondstar 15s infinite ease;
   }
 
   .banner-star06 {
@@ -384,6 +443,59 @@
     top: 310px;
     left: 1010px;
   }
+
+  @keyframes secondline {
+    34% {
+      background-color: #111d33;
+    }
+    43% {
+      background-color: #ffffff;
+    }
+    52% {
+      background-color: #ffffff;
+    }
+    67% {
+      background-color: #111d33;
+    }
+  }
+  #second-line {
+    background-color: #111d33;
+    display: block;
+    position: absolute;
+  }
+  .banner-line05 {
+    width: 209px;
+    height: 1px;
+    top: 324px;
+    left: 215px;
+    transform: rotate(-50deg);
+  }
+  .banner-line06 {
+    width: 185px;
+    height: 1px;
+    top: 285px;
+    left: 411px;
+    transform: rotate(32deg);
+  }
+  .banner-line07 {
+    width: 100px;
+    height: 1px;
+    top: 382px;
+    left: 620px;
+    transform: rotate(29deg);
+  }
+  .banner-line08 {
+    width: 260px;
+    height: 1px;
+    top: 373px;
+    left: 750px;
+    transform: rotate(-18deg);
+  }
+  .banner-slide-div:hover #second-line {
+    animation: secondline 15s infinite ease;
+  }
+
+
 
 
   #third-star {
@@ -411,7 +523,7 @@
     }
   }
   .banner-slide-div:hover #third-star {
-    animation: thirdstar 10s infinite ease;
+    animation: thirdstar 15s infinite ease;
   }
 
   .banner-star11 {
@@ -461,6 +573,7 @@
     width: 100px;
     height: 100px;
   } */
+
 
 
 

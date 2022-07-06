@@ -1,12 +1,11 @@
 
 import '../css/Banner.css';
-import slide from '../img/slide.jpg';
-import slide01 from '../img/slide01.jpg';
-import slide02 from '../img/slide02.jpg';
+// import slide from '../img/slide.jpg';
+// import slide01 from '../img/slide01.jpg';
+// import slide02 from '../img/slide02.jpg';
 import slide03 from '../img/slide03.jpg';
 import mountains1 from '../img/mountains1.png';
 import star1 from '../img/star1.jpg';
-import starlight1 from '../img/starlight1.png';
 
 
 export default function Banner() {
@@ -85,12 +84,20 @@ export default function Banner() {
                 <div className='banner-star03' id='first-star'>i</div>
                 <div className='banner-star04' id='first-star'>n</div>
                 <div className='banner-star05' id='first-star'>i</div>
+                <div className='banner-line01' id='first-line' />
+                <div className='banner-line02' id='first-line' />
+                <div className='banner-line03' id='first-line' />
+                <div className='banner-line04' id='first-line' />
 
                 <div className='banner-star06' id='second-star'>R</div>
                 <div className='banner-star07' id='second-star'>e</div>
                 <div className='banner-star08' id='second-star'>a</div>
                 <div className='banner-star09' id='second-star'>c</div>
                 <div className='banner-star10' id='second-star'>t</div>
+                <div className='banner-line05' id='second-line' />
+                <div className='banner-line06' id='second-line' />
+                <div className='banner-line07' id='second-line' />
+                <div className='banner-line08' id='second-line' />
 
                 <div className='banner-star11' id='third-star'>P</div>
                 <div className='banner-star12' id='third-star'>r</div>
