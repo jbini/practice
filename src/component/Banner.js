@@ -158,7 +158,11 @@ export default function Banner() {
                     <div className='banner-block3-2'><img src={building1} alt='slide03'></img></div>
                   </div>
                   <div className='banner-block4'><img src={building1} alt='slide03'></img></div>
-                  <div className='banner-block5'><img src={building1} alt='slide03'></img></div>
+                  <div className='banner-block5'>
+                    <div className='block-rotate'>
+                      <img src={building1} alt='slide03'></img>
+                    </div>
+                  </div>
                 </div>
 
 
