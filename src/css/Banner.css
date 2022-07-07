@@ -292,7 +292,7 @@
 
 
   #first-star {
-    color: #111d33;
+    color: #142647;
     font-family: "GmarketL";
     font-size: 30px;
     font-weight: 100;
@@ -303,7 +303,7 @@
   }
   @keyframes firststar {
     0% {
-      color: #111d33;
+      color: #142647;
     }
     2% {
       color: #ffffff;
@@ -312,7 +312,7 @@
       color: #ffffff;
     }
     34% {
-      color: #111d33;
+      color: #142647;
     }
   }
 
@@ -344,7 +344,7 @@
 
   @keyframes firstline {
     1% {
-      background-color: #111d33;
+      background-color: #142647;
     }
     10% {
       background-color: #ffffff;
@@ -353,11 +353,11 @@
       background-color: #ffffff;
     }
     34% {
-      background-color: #111d33;
+      background-color: #142647;
     }
   }
   #first-line {
-    background-color: #111d33;
+    background-color: #142647;
     display: block;
     position: absolute;
   }
@@ -396,7 +396,7 @@
 
 
   #second-star {
-    color: #111d33;
+    color: #142647;
     font-family: "GmarketL";
     font-size: 30px;
     font-weight: 100;
@@ -407,7 +407,7 @@
   }
   @keyframes secondstar {
     33% {
-      color: #111d33;
+      color: #142647;
     }
     35% {
       color: #ffffff;
@@ -416,7 +416,7 @@
       color: #ffffff;
     }
     67% {
-      color: #111d33;
+      color: #142647;
     }
   }
   .banner-slide-div:hover #second-star {
@@ -446,7 +446,7 @@
 
   @keyframes secondline {
     34% {
-      background-color: #111d33;
+      background-color: #142647;
     }
     43% {
       background-color: #ffffff;
@@ -455,11 +455,11 @@
       background-color: #ffffff;
     }
     67% {
-      background-color: #111d33;
+      background-color: #142647;
     }
   }
   #second-line {
-    background-color: #111d33;
+    background-color: #142647;
     display: block;
     position: absolute;
   }
@@ -499,7 +499,7 @@
 
 
   #third-star {
-    color: #111d33;
+    color: #142647;
     font-family: "GmarketL";
     font-size: 30px;
     font-weight: 100;
@@ -510,7 +510,7 @@
   }
   @keyframes thirdstar {
     66% {
-      color: #111d33;
+      color: #142647;
     }
     68% {
       color: #ffffff;
@@ -519,7 +519,7 @@
       color: #ffffff;
     }
     100% {
-      color: #111d33;
+      color: #142647;
     }
   }
   .banner-slide-div:hover #third-star {
@@ -527,37 +527,111 @@
   }
 
   .banner-star11 {
-    top: 210px;
-    left: 230px;
+    top: 150px;
+    left: 280px;
   }
   .banner-star12 {
-    top: 190px;
-    left: 350px;
+    top: 120px;
+    left: 470px;
   }
   .banner-star13 {
-    top: 260px;
-    left: 450px;
+    top: 330px;
+    left: 410px;
   }
   .banner-star14 {
-    top: 330px;
-    left: 640px;
+    top: 390px;
+    left: 540px;
   }
   .banner-star15 {
-    top: 310px;
-    left: 740px;
+    top: 290px;
+    left: 700px;
   }
   .banner-star16 {
     top: 250px;
     left: 830px;
   }
   .banner-star17 {
-    top: 310px;
-    left: 1000px;
+    top: 320px;
+    left: 910px;
   }
   .banner-star18 {
     top: 200px;
     left: 1090px;
   }
+
+  @keyframes thirdline {
+    67% {
+      background-color: #142647;
+    }
+    78% {
+      background-color: #ffffff;
+    }
+    85% {
+      background-color: #ffffff;
+    }
+    100% {
+      background-color: #142647;
+    }
+  }
+  #third-line {
+    background-color: #142647;
+    display: block;
+    position: absolute;
+  }
+  .banner-line09 {
+    width: 150px;
+    height: 1px;
+    top: 148px;
+    left: 315px;
+    transform: rotate(-8deg);
+  }
+  .banner-line10 {
+    width: 175px;
+    height: 1px;
+    top: 240px;
+    left: 366px;
+    transform: rotate(105deg);
+  }
+  .banner-line11 {
+    width: 110px;
+    height: 1px;
+    top: 380px;
+    left: 435px;
+    transform: rotate(25deg);
+  }
+  .banner-line12 {
+    width: 160px;
+    height: 1px;
+    top: 357px;
+    left: 556px;
+    transform: rotate(-34deg);
+  }
+  .banner-line13 {
+    width: 110px;
+    height: 1px;
+    top: 283px;
+    left: 725px;
+    transform: rotate(-18deg);
+  }
+  .banner-line14 {
+    width: 80px;
+    height: 1px;
+    top: 299px;
+    left: 843px;
+    transform: rotate(42deg);
+  }
+  .banner-line15 {
+    width: 180px;
+    height: 1px;
+    top: 278px;
+    left: 925px;
+    transform: rotate(-35deg);
+  }
+
+  .banner-slide-div:hover #third-line {
+    animation: thirdline 15s infinite ease;
+  }
+
 
   /* .banner-star-blink {
     filter: opacity(50%);

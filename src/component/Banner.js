@@ -107,6 +107,13 @@ export default function Banner() {
                 <div className='banner-star16' id='third-star'>i</div>
                 <div className='banner-star17' id='third-star'>c</div>
                 <div className='banner-star18' id='third-star'>e</div>
+                <div className='banner-line09' id='third-line' />
+                <div className='banner-line10' id='third-line' />
+                <div className='banner-line11' id='third-line' />
+                <div className='banner-line12' id='third-line' />
+                <div className='banner-line13' id='third-line' />
+                <div className='banner-line14' id='third-line' />
+                <div className='banner-line15' id='third-line' />
 
                 <div className='banner-link-div'>
                 <div className='banner-link'>
