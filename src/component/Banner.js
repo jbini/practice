@@ -6,6 +6,7 @@ import '../css/Banner.css';
 import slide03 from '../img/slide03.jpg';
 import mountains1 from '../img/mountains1.png';
 import star1 from '../img/star1.jpg';
+import building1 from '../img/building1.jpg';
 
 
 export default function Banner() {
@@ -140,8 +141,27 @@ export default function Banner() {
               </div>
               <div className='banner-slide-div'>
                 <label for='banner-btn2' className='left'></label>
-                <img src={slide03} alt='slide03'></img>
+                
                 <label for='banner-btn1' className='right'></label>
+
+                <div className='banner-block-box'>
+                  <div className='banner-block1'>
+                    <div className='banner-block1-1'><img src={building1} alt='slide03'></img></div>
+                    <div className='banner-block1-2'><img src={building1} alt='slide03'></img></div>
+                  </div>
+                  <div className='banner-block2'>
+                    <div className='banner-block2-1'><img src={building1} alt='slide03'></img></div>
+                    <div className='banner-block2-2'><img src={building1} alt='slide03'></img></div>
+                  </div>
+                  <div className='banner-block3'>
+                    <div className='banner-block3-1'><img src={building1} alt='slide03'></img></div>
+                    <div className='banner-block3-2'><img src={building1} alt='slide03'></img></div>
+                  </div>
+                  <div className='banner-block4'><img src={building1} alt='slide03'></img></div>
+                  <div className='banner-block5'><img src={building1} alt='slide03'></img></div>
+                </div>
+
+
                 <div className='banner-link-div'>
                 <div className='banner-link'>
                     <a href='https://github.com/jbini' target='_blank' rel="noreferrer">link1</a>

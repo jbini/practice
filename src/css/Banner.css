@@ -1,7 +1,6 @@
   .banner-container {
     min-width: 100%;
     text-align: center;
-    overflow: hidden;
     white-space: nowrap;
   }
   @font-face {
@@ -17,12 +16,13 @@
   .banner-div {
     background-color: #ececec;
     width: 1350px;
-    height: 770px;
+    height: 810px;
     margin-top: 80px;
     border: #ececec solid 50px;
     text-align: left;
     display: inline-block;
     overflow: hidden;
+    position: relative;
   }
   .banner-btn {
     white-space: normal;
@@ -47,21 +47,22 @@
   .banner-slide:hover label {display: inline-block;}
   
   .banner-slide {
-    width: 4050px;
+    width: 4150px;
     white-space: nowrap;
     transition: all 0.5s;
+    position: relative;
   }
   .banner-slide-div {
     background-color: #383838;
     width: 1350px;
-    height: 758px;
+    height: 810px;
     float: left;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
     text-align: center;
   }
   .banner-slide-div img{
-    height: 758px;
+    height: 810px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -648,6 +649,147 @@
     height: 100px;
   } */
 
+  .banner-block-box {
+    position: absolute;
+    overflow: visible;
+  }
+
+  .banner-block-box img{
+    width: 1350px;
+    height: 810px;
+    position: absolute;
+  }
+  .banner-block1 {
+    width: 540px;
+    height: 810px;
+    position: absolute;
+  }
+  .banner-block1-1 {
+    width: 270px;
+    height: 810px;
+    position: absolute;
+    overflow: hidden;
+  }
+  .banner-block1-1 img {
+    top: 405px;
+    left: 675px;
+  }
+  .banner-block1-2 {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 540px;
+    left: 270px;
+    overflow: hidden;
+  }
+  .banner-block1-2 img {
+    top: -135px;
+    left: 405px;
+  }
+
+  .banner-block2 {
+    width: 810px;
+    height: 540px;
+    position: absolute;
+    left: 270px;
+  }
+  .banner-block2-1 {
+    width: 810px;
+    height: 270px;
+    position: absolute;
+    overflow: hidden;
+  }
+  .banner-block2-1 img {
+    top: 405px;
+    left: 405px;
+  }
+  .banner-block2-2 {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 270px;
+    left: 270px;
+    overflow: hidden;
+  }
+
+  .banner-block3 {
+    width: 540px;
+    height: 540px;
+    position: absolute;
+    left: 810px;
+  }
+  .banner-block3-1 {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    left: 270px;
+    overflow: hidden;
+  }
+  .banner-block3-1 img {
+    top: 405px;
+    left: -405px;
+  }
+  .banner-block3-2 {
+    width: 540px;
+    height: 270px;
+    position: absolute;
+    top: 270px;
+    overflow: hidden;
+  }
+  .banner-block3-2 img {
+    top: 135px;
+    left: -135px;
+  }
+
+  .banner-block4 {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 270px;
+    left: 270px;
+    overflow: hidden;
+  }
+  .banner-block4 img {
+    top: 135px;
+    left: 405px;
+  }
+
+  .banner-block5 {
+    width: 810px;
+    height: 270px;
+    position: absolute;
+    top: 540px;
+    left: 540px;
+    overflow: hidden;
+  }
+  .banner-block5 img {
+    top: -135px;
+    left: 135px;
+  }
+  .banner-slide-div:hover .banner-block1 {
+    transform: translateX(-540px);
+    transition: 2s;
+    transition-delay: 1.5s;
+  }
+  .banner-slide-div:hover .banner-block2 {
+    transform: translateY(-540px);
+    transition: 2s;
+    transition-delay: .5s;
+  }
+  .banner-slide-div:hover .banner-block3 {
+    transform: translateX(540px);
+    transition: 2s;
+    transition-delay: 1s;
+  }
+  .banner-slide-div:hover .banner-block5 {
+    transform: translateX(810px);
+    transition: 2s;
+    transition-delay: 2s;
+  }
+  .banner-slide-div:hover .banner-block4 {
+    transform:rotateY(4320deg);
+    transition: 6s;
+  }
 
 
 
@@ -655,7 +797,7 @@
     width: 650px;
     height: 40px;
     position: absolute;
-    top: 700px;
+    top: 730px;
     left: 350px;
     text-align: center;
     z-index: 10;
