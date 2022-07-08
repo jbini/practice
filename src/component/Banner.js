@@ -3,10 +3,11 @@ import '../css/Banner.css';
 // import slide from '../img/slide.jpg';
 // import slide01 from '../img/slide01.jpg';
 // import slide02 from '../img/slide02.jpg';
-import slide03 from '../img/slide03.jpg';
+// import slide03 from '../img/slide03.jpg';
 import mountains1 from '../img/mountains1.png';
 import star1 from '../img/star1.jpg';
 import building1 from '../img/building1.jpg';
+import building2 from '../img/building2.jpg';
 
 
 export default function Banner() {
@@ -146,21 +147,41 @@ export default function Banner() {
 
                 <div className='banner-block-box'>
                   <div className='banner-block1'>
-                    <div className='banner-block1-1'><img src={building1} alt='slide03'></img></div>
-                    <div className='banner-block1-2'><img src={building1} alt='slide03'></img></div>
+                    <div className='banner-block1-1'><img src={building1} alt='building1'></img></div>
+                    <div className='banner-block1-2'><img src={building1} alt='building1'></img></div>
                   </div>
                   <div className='banner-block2'>
-                    <div className='banner-block2-1'><img src={building1} alt='slide03'></img></div>
-                    <div className='banner-block2-2'><img src={building1} alt='slide03'></img></div>
+                    <div className='banner-block2-1'><img src={building1} alt='building1'></img></div>
+                    <div className='banner-block2-2'><img src={building1} alt='building1'></img></div>
                   </div>
                   <div className='banner-block3'>
-                    <div className='banner-block3-1'><img src={building1} alt='slide03'></img></div>
-                    <div className='banner-block3-2'><img src={building1} alt='slide03'></img></div>
+                    <div className='banner-block3-1'><img src={building1} alt='building1'></img></div>
+                    <div className='banner-block3-2'><img src={building1} alt='building1'></img></div>
                   </div>
-                  <div className='banner-block4'><img src={building1} alt='slide03'></img></div>
+                  <div className='banner-block4'><img src={building1} alt='building1'></img></div>
                   <div className='banner-block5'>
                     <div className='block-rotate'>
-                      <img src={building1} alt='slide03'></img>
+                      <img src={building1} alt='building1'></img>
+                    </div>
+                  </div>
+                </div>
+                <div className='banner-block-box'>
+                  <div className='banner-block6'>
+                    <div className='banner-block6-1'><img src={building2} alt='building2'></img></div>
+                    <div className='banner-block6-2'><img src={building2} alt='building2'></img></div>
+                  </div>
+                  <div className='banner-block7'><img src={building2} alt='building2'></img></div>
+                  <div className='banner-block8'>
+                    <div className='banner-block8-1'><img src={building2} alt='building2'></img></div>
+                    <div className='banner-block8-2'><img src={building2} alt='building2'></img></div>
+                  </div>
+                  <div className='banner-block9'>
+                    <div className='banner-block9-1'><img src={building2} alt='building2'></img></div>
+                    <div className='banner-block9-2'><img src={building2} alt='building2'></img></div>
+                  </div>
+                  <div className='banner-block10'>
+                    <div className='block-rotate'>
+                      <img src={building2} alt='building2'></img>
                     </div>
                   </div>
                 </div>
