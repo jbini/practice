@@ -40,11 +40,13 @@
   #banner-btn2:checked ~ .banner-slide {transform: translate(-1350px);}
   #banner-btn3:checked ~ .banner-slide {transform: translate(-2700px);}
   
-  .banner-slide-div label {position: absolute; z-index:1;transform:translateY(320px);padding:50px;cursor: pointer; display: none;}
+  .banner-slide-div .left {position: absolute; z-index:1;transform:translateY(320px);padding:50px;cursor: pointer; display: none;}
+  .banner-slide-div .right {position: absolute; z-index:1;transform:translateY(320px);padding:50px;cursor: pointer; display: none;}
   .left {left:-20px;background:url('../img/left.jpg') center center / 100% no-repeat;}
   .right {right:-20px;background:url('../img/right.jpg') center center / 100% no-repeat;}
   
-  .banner-slide:hover label {display: inline-block;}
+  .banner-slide:hover .left {display: inline-block;}
+  .banner-slide:hover .right {display: inline-block;}
   
   .banner-slide {
     width: 4150px;
@@ -768,6 +770,7 @@
   .block-rotate {
     width: 270px;
     height: 270px;
+    position: relative;
     overflow: hidden;
   }
   .banner-block5 img {
@@ -775,35 +778,35 @@
     left: 405px;
   }
 
-  .banner-slide-div:hover .banner-block1 {
+  #block-change1:checked ~ .banner-block-box .banner-block1 {
     transform: translateX(-640px);
     transition: 2s;
     transition-delay: 1.5s;
   }
-  .banner-slide-div:hover .banner-block2 {
+  #block-change1:checked ~ .banner-block-box .banner-block2 {
     transform: translateY(-640px);
     transition: 2s;
     transition-delay: .5s;
   }
-  .banner-slide-div:hover .banner-block3 {
+  #block-change1:checked ~ .banner-block-box .banner-block3 {
     transform: translateX(640px);
     transition: 2s;
     transition-delay: 1s;
   }
-  .banner-slide-div:hover .banner-block4 {
+  #block-change1:checked ~ .banner-block-box .banner-block4 {
     transform: translateY(370px);
     transition: 2s;
     transition-delay: 2s;
   }
   
-  .banner-slide-div:hover .banner-block5 {
+  #block-change1:checked ~ .banner-block-box .banner-block5 {
     transform:translateX(540px);
     transition: 2.5s;
     transition-delay: 1s;
     filter: opacity(0%);
     z-index: 3;
   }
-  .banner-slide-div:hover .block-rotate {
+  #block-change1:checked ~ .banner-block-box .block-rotate {
     transform:rotateY(4320deg);
     transition: 5s;
   }
@@ -914,31 +917,45 @@
     top: 135px;
     left: -135px;
   }
-  .banner-slide-div:hover .banner-block6 {
+  #block-change1:checked ~ .banner-block-box .banner-block6 {
     transform: translateX(640px);
     transition: 2s;
     transition-delay: 2.3s;
   }
-  .banner-slide-div:hover .banner-block7 {
+  #block-change1:checked ~ .banner-block-box .banner-block7 {
     transform: translateY(370px);
     transition: 2s;
     transition-delay: 1.3s;
   }
-  .banner-slide-div:hover .banner-block8 {
+  #block-change1:checked ~ .banner-block-box .banner-block8 {
     transform: translateX(-640px);
     transition: 2s;
     transition-delay: 1.8s;
   }
-  .banner-slide-div:hover .banner-block9 {
+  #block-change1:checked ~ .banner-block-box .banner-block9 {
     transform: translateY(-640px);
     transition: 2s;
     transition-delay: 2.8s;
   }
-  .banner-slide-div:hover .banner-block10 {
+  #block-change1:checked ~ .banner-block-box .banner-block10 {
     transform:translateX(540px);
     transition: 2.5s;
     transition-delay: 1s;
     filter: opacity(100%);
+  }
+
+  .block-change-button {
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    z-index: 5;
   }
 
 
@@ -971,7 +988,7 @@
     
   }
   .banner-link a {
-    color: #757575;
+    color: #a1a1a1;
     text-decoration: none;
     position: relative;
     /* border-bottom: #757575 solid 2px; */
@@ -985,7 +1002,7 @@
     height: 30px;
     border-left: #dfdfdf solid 1px;
     border-right: #dfdfdf solid 1px;
-    color: #fcfcfc;
+    color: #ffffff;
     text-decoration: none;
     transition: all ease 0.5s;
     /* border-bottom: #ececec solid 3px; */
@@ -1002,7 +1019,7 @@
     z-index: 3;
   }
   .banner-link:hover .banner-link-effect {
-    border: #ececec 2px solid;
+    border: #eeeeee 2px solid;
     transform: rotate(45deg);
     transition: all ease 0.3s;
   }

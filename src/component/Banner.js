@@ -142,8 +142,9 @@ export default function Banner() {
               </div>
               <div className='banner-slide-div'>
                 <label for='banner-btn2' className='left'></label>
-                
                 <label for='banner-btn1' className='right'></label>
+                <input type='radio' name='blockchange' id='block-change1' />
+                <input type='radio' name='blockchange' id='block-change2' />
 
                 <div className='banner-block-box'>
                   <div className='banner-block1'>
@@ -161,6 +162,7 @@ export default function Banner() {
                   <div className='banner-block4'><img src={building1} alt='building1'></img></div>
                   <div className='banner-block5'>
                     <div className='block-rotate'>
+                      <label className='block-change-button' for='block-change1'>Move</label>
                       <img src={building1} alt='building1'></img>
                     </div>
                   </div>
@@ -181,6 +183,7 @@ export default function Banner() {
                   </div>
                   <div className='banner-block10'>
                     <div className='block-rotate'>
+                      <label className='block-change-button' for='block-change2'>Move</label>
                       <img src={building2} alt='building2'></img>
                     </div>
                   </div>
