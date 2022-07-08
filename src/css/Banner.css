@@ -813,6 +813,43 @@
 
 
 
+
+
+  #block-change2:checked ~ .banner-block-box .banner-block1 {
+    transform: translateX(0px);
+    transition: 2s;
+    transition-delay: 1.3s;
+  }
+  #block-change2:checked ~ .banner-block-box .banner-block2 {
+    transform: translateY(0px);
+    transition: 2s;
+    transition-delay: 2.3s;
+  }
+  #block-change2:checked ~ .banner-block-box .banner-block3 {
+    transform: translateX(0px);
+    transition: 2s;
+    transition-delay: 2.8s;
+  }
+  #block-change2:checked ~ .banner-block-box .banner-block4 {
+    transform: translateY(0px);
+    transition: 2s;
+    transition-delay: 1.8s;
+  }
+  
+  #block-change2:checked ~ .banner-block-box .banner-block5 {
+    transform:translateX(0px);
+    transition: 2.5s;
+    transition-delay: 1s;
+    filter: opacity(100%);
+    z-index: 5;
+  }
+  #block-change2:checked ~ .banner-block-box .block-rotate {
+    transform:rotateY(-4320deg);
+    transition: 5s;
+  }
+
+
+
   .banner-block6 {
     width: 540px;
     height: 540px;
@@ -943,6 +980,38 @@
     transition-delay: 1s;
     filter: opacity(100%);
   }
+
+
+
+
+  #block-change2:checked ~ .banner-block-box .banner-block6 {
+    transform: translateX(0px);
+    transition: 2s;
+    transition-delay: 1s;
+  }
+  #block-change2:checked ~ .banner-block-box .banner-block7 {
+    transform: translateY(0px);
+    transition: 2s;
+    transition-delay: 1.5s;
+  }
+  #block-change2:checked ~ .banner-block-box .banner-block8 {
+    transform: translateX(0px);
+    transition: 2s;
+    transition-delay: 2s;
+  }
+  #block-change2:checked ~ .banner-block-box .banner-block9 {
+    transform: translateY(0px);
+    transition: 2s;
+    transition-delay: 0.5s;
+  }
+  #block-change2:checked ~ .banner-block-box .banner-block10 {
+    transform:translateX(0px);
+    transition: 2.5s;
+    transition-delay: 1s;
+    filter: opacity(0%);
+  }
+
+
 
   .block-change-button {
     background-color: #ffffff;
