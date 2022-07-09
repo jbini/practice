@@ -303,6 +303,7 @@
     display: block;
     width: 30px;
     height: 30px;
+    animation: firststar 15s infinite ease;
   }
   @keyframes firststar {
     0% {
@@ -319,9 +320,9 @@
     }
   }
 
-  .banner-slide-div:hover #first-star {
+  /* .banner-slide-div:hover #first-star {
     animation: firststar 15s infinite ease;
-  }
+  } */
 
   .banner-star01 {
     top: 220px;
@@ -363,6 +364,7 @@
     background-color: #142647;
     display: block;
     position: absolute;
+    animation: firstline 15s infinite ease;
   }
   .banner-line01 {
     width: 130px;
@@ -392,9 +394,9 @@
     left: 740px;
     transform: rotate(32deg);
   }
-  .banner-slide-div:hover #first-line {
+  /* .banner-slide-div:hover #first-line {
     animation: firstline 15s infinite ease;
-  }
+  } */
 
 
 
@@ -407,6 +409,7 @@
     display: block;
     width: 30px;
     height: 30px;
+    animation: secondstar 15s infinite ease;
   }
   @keyframes secondstar {
     33% {
@@ -422,9 +425,9 @@
       color: #142647;
     }
   }
-  .banner-slide-div:hover #second-star {
+  /* .banner-slide-div:hover #second-star {
     animation: secondstar 15s infinite ease;
-  }
+  } */
 
   .banner-star06 {
     top: 410px;
@@ -465,6 +468,7 @@
     background-color: #142647;
     display: block;
     position: absolute;
+    animation: secondline 15s infinite ease;
   }
   .banner-line05 {
     width: 209px;
@@ -494,9 +498,9 @@
     left: 750px;
     transform: rotate(-18deg);
   }
-  .banner-slide-div:hover #second-line {
+  /* .banner-slide-div:hover #second-line {
     animation: secondline 15s infinite ease;
-  }
+  } */
 
 
 
@@ -510,6 +514,7 @@
     display: block;
     width: 30px;
     height: 30px;
+    animation: thirdstar 15s infinite ease;
   }
   @keyframes thirdstar {
     66% {
@@ -525,9 +530,9 @@
       color: #142647;
     }
   }
-  .banner-slide-div:hover #third-star {
+  /* .banner-slide-div:hover #third-star {
     animation: thirdstar 15s infinite ease;
-  }
+  } */
 
   .banner-star11 {
     top: 150px;
@@ -580,6 +585,7 @@
     background-color: #142647;
     display: block;
     position: absolute;
+    animation: thirdline 15s infinite ease;
   }
   .banner-line09 {
     width: 150px;
@@ -631,9 +637,9 @@
     transform: rotate(-35deg);
   }
 
-  .banner-slide-div:hover #third-line {
+  /* .banner-slide-div:hover #third-line {
     animation: thirdline 15s infinite ease;
-  }
+  } */
 
 
   /* .banner-star-blink {
