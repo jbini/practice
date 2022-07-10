@@ -117,6 +117,25 @@ export default function Banner() {
                 <div className='banner-line14' id='third-line' />
                 <div className='banner-line15' id='third-line' />
 
+
+                {/* <div className='banner-star11' id='third-star'>P</div>
+                <div className='banner-star12' id='third-star'>r</div>
+                <div className='banner-star13' id='third-star'>a</div>
+                <div className='banner-star14' id='third-star'>c</div>
+                <div className='banner-star15' id='third-star'>t</div>
+                <div className='banner-star16' id='third-star'>i</div>
+                <div className='banner-star17' id='third-star'>c</div>
+                <div className='banner-star18' id='third-star'>e</div>
+                <div className='banner-line09' id='third-line' />
+                <div className='banner-line10' id='third-line' />
+                <div className='banner-line11' id='third-line' />
+                <div className='banner-line12' id='third-line' />
+                <div className='banner-line13' id='third-line' />
+                <div className='banner-line14' id='third-line' />
+                <div className='banner-line15' id='third-line' /> */}
+
+
+
                 <div className='banner-link-div'>
                 <div className='banner-link'>
                     <a href='https://github.com/jbini' target='_blank' rel="noreferrer">Google</a>
