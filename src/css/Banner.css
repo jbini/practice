@@ -850,7 +850,7 @@
     z-index: 5;
   }
   #block-change2:checked ~ .banner-block-box .block-rotate {
-    transform:rotateY(-4320deg);
+    transform:rotateY(0deg);
     transition: 5s;
   }
 
@@ -1032,6 +1032,39 @@
     cursor: pointer;
     z-index: 5;
   }
+  .banner-block10 .block-change-button {
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    z-index: 5;
+    filter: opacity(0%);
+  }
+  #block-change1:checked ~ .banner-block-box .banner-block5 .block-change-button {
+    filter: opacity(0%);
+    transition: 1s;
+  }
+  #block-change1:checked ~ .banner-block-box .banner-block10 .block-change-button {
+    filter: opacity(100%);
+    transition: 1s;
+    transition-delay: 4s;
+  }
+  #block-change2:checked ~ .banner-block-box .banner-block10 .block-change-button {
+    filter: opacity(0%);
+    transition: 1s;
+  }
+  #block-change2:checked ~ .banner-block-box .banner-block5 .block-change-button {
+    filter: opacity(100%);
+    transition: 1s;
+    transition-delay: 4s;
+  }
+
 
 
 
