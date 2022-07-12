@@ -164,7 +164,7 @@ export default function Banner() {
                   </div>
                   <div className='banner-block4'><img src={building1} alt='building1'></img></div>
                   <div className='banner-block5'>
-                    <label className='block-change-button' for='block-change1'>Move</label>
+                    <label className='block-change-button' for='block-change1'><p>Move</p></label>
                     <div className='block-rotate'>
                       <img src={building1} alt='building1'></img>
                     </div>
@@ -185,7 +185,7 @@ export default function Banner() {
                     <div className='banner-block9-2'><img src={building2} alt='building2'></img></div>
                   </div>
                   <div className='banner-block10'>
-                    <label className='block-change-button' for='block-change2'>Move</label>
+                    <label className='block-change-button' for='block-change2'><p>Move</p></label>
                     <div className='block-rotate'>
                       <img src={building2} alt='building2'></img>
                     </div>

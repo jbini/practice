@@ -1020,7 +1020,7 @@
 
 
   .block-change-button {
-    background-color: #ffffff;
+    background-color: #474747;
     width: 100px;
     height: 30px;
     border-radius: 15px;
@@ -1031,9 +1031,10 @@
     transform: translate(-50%,-50%);
     cursor: pointer;
     z-index: 5;
+    filter: opacity(70%);
   }
   .banner-block10 .block-change-button {
-    background-color: #ffffff;
+    background-color: #474747;
     width: 100px;
     height: 30px;
     border-radius: 15px;
@@ -1045,13 +1046,21 @@
     cursor: pointer;
     z-index: 5;
     filter: opacity(0%);
+  }
+
+  .block-change-button p {
+    color: #ffffff;
+    font-family: "GmarketL";
+    font-size: 20px;
+    filter: opacity(100%);
+    margin-top: 3px;
   }
   #block-change1:checked ~ .banner-block-box .banner-block5 .block-change-button {
     filter: opacity(0%);
     transition: 1s;
   }
   #block-change1:checked ~ .banner-block-box .banner-block10 .block-change-button {
-    filter: opacity(100%);
+    filter: opacity(70%);
     transition: 1s;
     transition-delay: 4s;
   }
@@ -1060,7 +1069,7 @@
     transition: 1s;
   }
   #block-change2:checked ~ .banner-block-box .banner-block5 .block-change-button {
-    filter: opacity(100%);
+    filter: opacity(70%);
     transition: 1s;
     transition-delay: 4s;
   }
