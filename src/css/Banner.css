@@ -787,34 +787,35 @@
   #block-change1:checked ~ .banner-block-box .banner-block1 {
     transform: translateX(-640px);
     transition: 2s;
-    transition-delay: 1.5s;
+    transition-delay: 2s;
   }
   #block-change1:checked ~ .banner-block-box .banner-block2 {
     transform: translateY(-640px);
     transition: 2s;
-    transition-delay: .5s;
+    transition-delay: 1s;
   }
   #block-change1:checked ~ .banner-block-box .banner-block3 {
     transform: translateX(640px);
     transition: 2s;
-    transition-delay: 1s;
+    transition-delay: 1.5s;
   }
   #block-change1:checked ~ .banner-block-box .banner-block4 {
     transform: translateY(370px);
     transition: 2s;
-    transition-delay: 2s;
+    transition-delay: 2.5s;
   }
   
   #block-change1:checked ~ .banner-block-box .banner-block5 {
     transform:translateX(540px);
     transition: 2.5s;
-    transition-delay: 1s;
+    transition-delay: 1.5s;
     filter: opacity(0%);
     z-index: 3;
   }
   #block-change1:checked ~ .banner-block-box .block-rotate {
     transform:rotateY(4320deg);
     transition: 5s;
+    transition-delay: .5s;
   }
 
 
@@ -824,34 +825,35 @@
   #block-change2:checked ~ .banner-block-box .banner-block1 {
     transform: translateX(0px);
     transition: 2s;
-    transition-delay: 1.3s;
+    transition-delay: 1.8s;
   }
   #block-change2:checked ~ .banner-block-box .banner-block2 {
     transform: translateY(0px);
     transition: 2s;
-    transition-delay: 2.3s;
+    transition-delay: 2.8s;
   }
   #block-change2:checked ~ .banner-block-box .banner-block3 {
     transform: translateX(0px);
     transition: 2s;
-    transition-delay: 2.8s;
+    transition-delay: 3.3s;
   }
   #block-change2:checked ~ .banner-block-box .banner-block4 {
     transform: translateY(0px);
     transition: 2s;
-    transition-delay: 1.8s;
+    transition-delay: 2.3s;
   }
   
   #block-change2:checked ~ .banner-block-box .banner-block5 {
     transform:translateX(0px);
     transition: 2.5s;
-    transition-delay: 1s;
+    transition-delay: 1.5s;
     filter: opacity(100%);
     z-index: 5;
   }
   #block-change2:checked ~ .banner-block-box .block-rotate {
     transform:rotateY(0deg);
     transition: 5s;
+    transition-delay: .5s;
   }
 
 
@@ -963,27 +965,27 @@
   #block-change1:checked ~ .banner-block-box .banner-block6 {
     transform: translateX(640px);
     transition: 2s;
-    transition-delay: 2.3s;
+    transition-delay: 2.8s;
   }
   #block-change1:checked ~ .banner-block-box .banner-block7 {
     transform: translateY(370px);
     transition: 2s;
-    transition-delay: 1.3s;
+    transition-delay: 1.8s;
   }
   #block-change1:checked ~ .banner-block-box .banner-block8 {
     transform: translateX(-640px);
     transition: 2s;
-    transition-delay: 1.8s;
+    transition-delay: 2.3s;
   }
   #block-change1:checked ~ .banner-block-box .banner-block9 {
     transform: translateY(-640px);
     transition: 2s;
-    transition-delay: 2.8s;
+    transition-delay: 3.3s;
   }
   #block-change1:checked ~ .banner-block-box .banner-block10 {
     transform:translateX(540px);
     transition: 2.5s;
-    transition-delay: 1s;
+    transition-delay: 1.5s;
     filter: opacity(100%);
   }
 
@@ -993,27 +995,27 @@
   #block-change2:checked ~ .banner-block-box .banner-block6 {
     transform: translateX(0px);
     transition: 2s;
-    transition-delay: 1s;
+    transition-delay: 1.5s;
   }
   #block-change2:checked ~ .banner-block-box .banner-block7 {
     transform: translateY(0px);
     transition: 2s;
-    transition-delay: 1.5s;
+    transition-delay: 2s;
   }
   #block-change2:checked ~ .banner-block-box .banner-block8 {
     transform: translateX(0px);
     transition: 2s;
-    transition-delay: 2s;
+    transition-delay: 2.5s;
   }
   #block-change2:checked ~ .banner-block-box .banner-block9 {
     transform: translateY(0px);
     transition: 2s;
-    transition-delay: 0.5s;
+    transition-delay: 1s;
   }
   #block-change2:checked ~ .banner-block-box .banner-block10 {
     transform:translateX(0px);
     transition: 2.5s;
-    transition-delay: 1s;
+    transition-delay: 1.5s;
     filter: opacity(0%);
   }
 
@@ -1058,20 +1060,22 @@
   #block-change1:checked ~ .banner-block-box .banner-block5 .block-change-button {
     filter: opacity(0%);
     transition: 1s;
+    cursor: default;
   }
   #block-change1:checked ~ .banner-block-box .banner-block10 .block-change-button {
     filter: opacity(70%);
     transition: 1s;
-    transition-delay: 4s;
+    transition-delay: 4.7s;
   }
   #block-change2:checked ~ .banner-block-box .banner-block10 .block-change-button {
     filter: opacity(0%);
     transition: 1s;
+    cursor: default;
   }
   #block-change2:checked ~ .banner-block-box .banner-block5 .block-change-button {
     filter: opacity(70%);
     transition: 1s;
-    transition-delay: 4s;
+    transition-delay: 4.7s;
   }
 
 
