@@ -1131,6 +1131,7 @@
 
   .banner-link-effect {
     display: block;
+    border: #383838 2px solid;
     position: absolute;
     left: 23px;
     top: -13px;
@@ -1138,14 +1139,17 @@
     height: 50px;
     transition: all ease 0.3s;
     z-index: 3;
+    filter: opacity(0%);
   }
   .banner-link:hover .banner-link-effect {
     border: #eeeeee 2px solid;
     transform: rotate(45deg);
+    filter: opacity(100%);
     transition: all ease 0.3s;
   }
   .banner-link-effect2 {
     display: block;
+    border: #383838 1px solid;
     position: absolute;
     left: 21px;
     top: -15px;
@@ -1153,10 +1157,12 @@
     height: 56px;
     transition: all ease 0.3s;
     z-index: 3;
+    filter: opacity(0%);
   }
   .banner-link:hover .banner-link-effect2 {
     border: #dfdfdf 1px solid;
     transform: rotate(-135deg);
+    filter: opacity(100%);
     transition: all ease 0.3s;
   }
 
