@@ -1077,7 +1077,45 @@
     transition: 1s;
     transition-delay: 4.7s;
   }
-
+  .banner-slide-div h2 {
+    color: #ffffff;
+    font-family: "gmarketM";
+    font-size: 90px;
+    margin: 0;
+  }
+  .block-sub-div1 {
+    display: block;
+    position: absolute;
+    top: 290px;
+    left: 350px;
+    z-index: 6;
+  }
+  #block-change1:checked ~ .block-sub-div1 {
+    filter: opacity(0%);
+    transition: 1s;
+  }
+  #block-change2:checked ~ .block-sub-div1 {
+    filter: opacity(100%);
+    transition: 1s;
+    transition-delay: 5s;
+  }
+  .block-sub-div2 {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    filter: opacity(0%);
+    z-index: 6;
+  }
+  #block-change1:checked ~ .block-sub-div2 {
+    filter: opacity(100%);
+    transition: 1s;
+    transition-delay: 5s;
+  }
+  #block-change2:checked ~ .block-sub-div2 {
+    filter: opacity(0%);
+    transition: 1s;
+  }
 
 
 

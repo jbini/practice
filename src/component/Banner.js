@@ -148,6 +148,8 @@ export default function Banner() {
                 <label for='banner-btn1' className='right'></label>
                 <input type='radio' name='blockchange' id='block-change1' />
                 <input type='radio' name='blockchange' id='block-change2' />
+                <div className='block-sub-div1'><h2>LOOK UP</h2></div>
+                <div className='block-sub-div2'><h2>LOOK DOWN</h2></div>
 
                 <div className='banner-block-box'>
                   <div className='banner-block1'>
