@@ -10,6 +10,9 @@ import building1 from '../img/building1.jpg';
 import building2 from '../img/building2.jpg';
 
 
+let blockimg1 = building1
+let blockimg2 = building2
+
 export default function Banner() {
   
     return(
@@ -148,6 +151,7 @@ export default function Banner() {
                 <label for='banner-btn1' className='right'></label>
                 <input type='radio' name='blockchange' id='block-change1' />
                 <input type='radio' name='blockchange' id='block-change2' />
+
                 <div className='block-sub-div1'><h2>LOOK UP</h2></div>
                 <div className='block-sub-div1-1'><h5>take me to the top</h5></div>
                 <div className='block-sub-div2'>
@@ -161,43 +165,43 @@ export default function Banner() {
 
                 <div className='banner-block-box'>
                   <div className='banner-block1'>
-                    <div className='banner-block1-1'><img src={building1} alt='building1'></img></div>
-                    <div className='banner-block1-2'><img src={building1} alt='building1'></img></div>
+                    <div className='banner-block1-1'><img src={blockimg1} alt='building1'></img></div>
+                    <div className='banner-block1-2'><img src={blockimg1} alt='building1'></img></div>
                   </div>
                   <div className='banner-block2'>
-                    <div className='banner-block2-1'><img src={building1} alt='building1'></img></div>
-                    <div className='banner-block2-2'><img src={building1} alt='building1'></img></div>
+                    <div className='banner-block2-1'><img src={blockimg1} alt='building1'></img></div>
+                    <div className='banner-block2-2'><img src={blockimg1} alt='building1'></img></div>
                   </div>
                   <div className='banner-block3'>
-                    <div className='banner-block3-1'><img src={building1} alt='building1'></img></div>
-                    <div className='banner-block3-2'><img src={building1} alt='building1'></img></div>
+                    <div className='banner-block3-1'><img src={blockimg1} alt='building1'></img></div>
+                    <div className='banner-block3-2'><img src={blockimg1} alt='building1'></img></div>
                   </div>
-                  <div className='banner-block4'><img src={building1} alt='building1'></img></div>
+                  <div className='banner-block4'><img src={blockimg1} alt='building1'></img></div>
                   <div className='banner-block5'>
                     <label className='block-change-button' for='block-change1'><p>Move</p></label>
                     <div className='block-rotate'>
-                      <img src={building1} alt='building1'></img>
+                      <img src={blockimg1} alt='building1'></img>
                     </div>
                   </div>
                 </div>
                 <div className='banner-block-box'>
                   <div className='banner-block6'>
-                    <div className='banner-block6-1'><img src={building2} alt='building2'></img></div>
-                    <div className='banner-block6-2'><img src={building2} alt='building2'></img></div>
+                    <div className='banner-block6-1'><img src={blockimg2} alt='building2'></img></div>
+                    <div className='banner-block6-2'><img src={blockimg2} alt='building2'></img></div>
                   </div>
-                  <div className='banner-block7'><img src={building2} alt='building2'></img></div>
+                  <div className='banner-block7'><img src={blockimg2} alt='building2'></img></div>
                   <div className='banner-block8'>
-                    <div className='banner-block8-1'><img src={building2} alt='building2'></img></div>
-                    <div className='banner-block8-2'><img src={building2} alt='building2'></img></div>
+                    <div className='banner-block8-1'><img src={blockimg2} alt='building2'></img></div>
+                    <div className='banner-block8-2'><img src={blockimg2} alt='building2'></img></div>
                   </div>
                   <div className='banner-block9'>
-                    <div className='banner-block9-1'><img src={building2} alt='building2'></img></div>
-                    <div className='banner-block9-2'><img src={building2} alt='building2'></img></div>
+                    <div className='banner-block9-1'><img src={blockimg2} alt='building2'></img></div>
+                    <div className='banner-block9-2'><img src={blockimg2} alt='building2'></img></div>
                   </div>
                   <div className='banner-block10'>
                     <label className='block-change-button' for='block-change2'><p>Move</p></label>
                     <div className='block-rotate'>
-                      <img src={building2} alt='building2'></img>
+                      <img src={blockimg2} alt='building2'></img>
                     </div>
                   </div>
                 </div>

@@ -1084,12 +1084,14 @@
     font-family: "gmarketM";
     font-size: 90px;
     margin: 0;
+    cursor: default;
   }
   .banner-slide-div h5 {
     color: #ffffff;
     font-family: "gmarketL";
     font-size: 12px;
     margin: 0;
+    cursor: default;
   }
   .block-sub-div1 {
     display: block;
@@ -1138,6 +1140,7 @@
     filter: opacity(0%);
     z-index: 5;
     overflow: hidden;
+    cursor: default;
   }
   .block-sub-div2-1 {
     display: block;
@@ -1153,6 +1156,7 @@
   }
   .block-sub-div2 h2 {
     margin-top: 20px;
+    cursor: default;
   }
   .block-sub-div2-line1{
     background-color: #ffffff;
