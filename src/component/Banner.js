@@ -184,6 +184,7 @@ export default function Banner() {
                     </div>
                   </div>
                 </div>
+                
                 <div className='banner-block-box'>
                   <div className='banner-block6'>
                     <div className='banner-block6-1'><img src={blockimg2} alt='building2'></img></div>
