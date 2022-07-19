@@ -154,6 +154,16 @@ export default function Banner() {
 
                 <div className='block-sub-div1'><h2>LOOK UP</h2></div>
                 <div className='block-sub-div1-1'><h5>take me to the top</h5></div>
+
+                <div className='block-link-div1'>
+                  <div className='block-link-div1-1'><h6>Success is not the key to happiness</h6></div>
+                  <div className='block-link-div1-2'><h6>Happiness is the key to success</h6></div>
+                  <div className='block-link-div1-3'><h6>If you love what you are doing, you will be successful</h6></div>
+                </div>
+                <div className='block-link-div1-link'><h6>To success</h6></div>
+
+
+
                 <div className='block-sub-div2'>
                   <div className='block-sub-div2-1'><h5>Where there is a will</h5></div>
                   <h2>LOOK DOWN</h2>
