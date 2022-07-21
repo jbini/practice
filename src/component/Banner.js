@@ -160,9 +160,11 @@ export default function Banner() {
                   <div className='block-link-div1-2'><h6>Happiness is the key to success</h6></div>
                   <div className='block-link-div1-3'><h6>If you love what you are doing, you will be successful</h6></div>
                 </div>
-                <div className='block-link-div1-link'>
-                  <a href='https://github.com/jbini' target='_blank' rel="noreferrer"><h6>To success</h6></a>
-                </div>
+                <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+                  <div className='block-link-div1-link'>
+                    <h6>To success</h6>
+                  </div>
+                </a>
 
 
 

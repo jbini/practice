@@ -1283,14 +1283,14 @@
       filter: opacity(0%);
     }
   }
-  #block-change1:checked ~ .block-link-div1-link {
+  #block-change1:checked ~ a .block-link-div1-link {
     animation: block-link1 1s ease;
     filter: opacity(0%);
     transform: translateX(-20px);
     transition: 1s;
     cursor: default;
   }
-  #block-change2:checked ~ .block-link-div1-link {
+  #block-change2:checked ~ a .block-link-div1-link {
     filter: opacity(100%);
     transform: translateY(0px);
     transition: 1s;
