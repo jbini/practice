@@ -153,6 +153,7 @@ export default function Banner() {
                 <input type='radio' name='blockchange' id='block-change2' />
 
                 <div className='block-sub-div1'><h2>LOOK UP</h2></div>
+                <div className='block-sub-div1-shadow'><h2>LOOK UP</h2></div>
                 <div className='block-sub-div1-1'><h5>take me to the top</h5></div>
 
                 <div className='block-link-div1'>
