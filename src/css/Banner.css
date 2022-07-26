@@ -304,6 +304,7 @@
     width: 30px;
     height: 30px;
     animation: firststar 15s infinite ease;
+    cursor: default;
   }
   @keyframes firststar {
     0% {
@@ -410,6 +411,7 @@
     width: 30px;
     height: 30px;
     animation: secondstar 15s infinite ease;
+    cursor: default;
   }
   @keyframes secondstar {
     33% {
@@ -515,6 +517,7 @@
     width: 30px;
     height: 30px;
     animation: thirdstar 15s infinite ease;
+    cursor: default;
   }
   @keyframes thirdstar {
     66% {
