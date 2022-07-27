@@ -223,6 +223,28 @@ export default function Banner() {
                 </div>
 
 
+                {/* <div className='banner-block-box'>
+                  <div className='banner-block6'>
+                    <div className='banner-block6-1'><img src={blockimg2} alt='building2'></img></div>
+                    <div className='banner-block6-2'><img src={blockimg2} alt='building2'></img></div>
+                  </div>
+                  <div className='banner-block7'><img src={blockimg2} alt='building2'></img></div>
+                  <div className='banner-block8'>
+                    <div className='banner-block8-1'><img src={blockimg2} alt='building2'></img></div>
+                    <div className='banner-block8-2'><img src={blockimg2} alt='building2'></img></div>
+                  </div>
+                  <div className='banner-block9'>
+                    <div className='banner-block9-1'><img src={blockimg2} alt='building2'></img></div>
+                    <div className='banner-block9-2'><img src={blockimg2} alt='building2'></img></div>
+                  </div>
+                  <div className='banner-block10'>
+                    <label className='block-change-button' for='block-change2'><p>Move</p></label>
+                    <div className='block-rotate'>
+                      <img src={blockimg2} alt='building2'></img>
+                    </div>
+                  </div>
+                </div> */}
+
                 <div className='banner-link-div'>
                 <div className='banner-link'>
                     <a href='https://github.com/jbini' target='_blank' rel="noreferrer">link1</a>
