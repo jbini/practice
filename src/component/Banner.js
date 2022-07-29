@@ -8,10 +8,12 @@ import mountains1 from '../img/mountains1.png';
 import star1 from '../img/star1.jpg';
 import building1 from '../img/building1.jpg';
 import building2 from '../img/building2.jpg';
+import right from '../img/right.jpg';
 
 
 let blockimg1 = building1
 let blockimg2 = building2
+let arrowright = right
 
 export default function Banner() {
   
@@ -193,7 +195,10 @@ export default function Banner() {
                   </div>
                   <div className='banner-block4'><img src={blockimg1} alt='building1'></img></div>
                   <div className='banner-block5'>
-                    <label className='block-change-button' for='block-change1'><p>Move</p></label>
+                    <label className='block-change-button' for='block-change1'>
+                      <p>Move</p>
+                      <img src={arrowright} alt='arrowright'/>
+                    </label>
                     <div className='block-rotate'>
                       <img src={blockimg1} alt='building1'></img>
                     </div>
